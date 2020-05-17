@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Strust2-1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Strust2_1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Strust2-1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate" />
+          <element id="library" level="project" name="Struts 2" />
+          <element id="library" level="module" name="JUnit4" module-name="Strust2-1" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Strust2-1/web/Web" />
+    </root>
+  </artifact>
+</component>
